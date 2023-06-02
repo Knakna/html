@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+		 <div class="container">
+
+            <div class="header__wrap">
+                <button class="burger">
+
+                </button>
+
+
+                <div class="header__logo">
+                    <img src="data:image/png;base64,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" alt="">
+                </div>
+
+                 <nav class="header__nav">
+                            <ul class="header__list">
+                                <li class="header__item">
+                                    <a class="header__link" href="#gallery">Design Gallery</a>
+                                </li>
+                                <li class="header__item">
+                                    <a class="header__link" href="#archmove">List of Architect</a>
+                                </li>
+                                <li class="header__item">
+                                    <a class="header__link" href="#reviews">Articles</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+
+            </div>
+
+
+			 </div>
+
+        </header>
+	<main class="main">
+        <div class="container">
+            <h1 class="main__title">
+                Build Your
+                Dream <span class="main__accent">House</span>
+            </h1>
+
+            <div class="main__wrap">
+
+                <div class="main__desc">
+                    <p class="main__text text">
+                        The first and most trusted marketplace of design & build house in The World. 100% guaranteed
+                        Build
+                        safe, comfortable and transparent with a project management for the best result
+                    </p>
+                    <button class="main__btn btn">Free Consultation</button>
+                </div>
+
+                 <div class="main__wrap">
+                    <img class="main__img" src="data:image/png;base64,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" alt="house">
+                </div>
+
+
+            </div> <!-- /.main__wrap -->
+        </div> <!-- /.container -->
+    </main> <!-- /.main -->
+
+    <section class="archmove" id="archmove">
+        <div class="container">
+            <h2 class="archmove__title title">Build your needs with Archmove
+            </h2>
+
+            <div class="archmove__wrap">
+
+                <div class="archmove__boxes">
+
+                    <div class="archmove__box">
+
+                        <div class="archmove__desc">
+                            <h4 class="archmove__caption">100% guaranteed project completion
+                            </h4>
+                            <p class="archmove__text text">Build safe, comfortable and transparent with a project
+                                management
+                                application with a joint account.</p>
+                        </div>
+                    </div>
+                    <!-- /.archmove__box -->
+
+                    <div class="archmove__box">
+
+                        <div class="archmove__desc">
+                            <h4 class="archmove__caption">No additional fees
+                            </h4>
+                            <p class="archmove__text text">There are no hidden costs. The value of the offer you get is
+                                the
+                                value you
+                                paid.</p>
+                        </div>
+                    </div>
+                    <!-- /.archmove__box -->
+
+                    <div class="archmove__box">
+
+                        <div class="archmove__desc">
+                            <h4 class="archmove__caption">Get escort from the Team
+                            </h4>
+                            <p class="archmove__text text">Monitor reports from the Arsitag team who check directly in
+                                the
+                                field.</p>
+                        </div>
+                    </div>
+                    <!-- /.archmove__box -->
+
+                    <button class="archmove__btn btn">CONSULTATION</button>
+
+                </div> <!-- /.archmove__boxes -->
+
+            </div> <!-- /.archmove__wrap -->
+        </div><!-- /.container -->
+    </section><!-- /.archmove -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">About Us</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">How it Works</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">FAQ</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Contact Us</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+
+                <a class="footer__logo logo" href="#header">
+                    lo <br/> go
+                </a>
+
+            </div> <!-- footer__wrap -->
+
+        </div> <!-- container -->
+    </footer> <!-- footer -->
+
+    </div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
+
+
+
