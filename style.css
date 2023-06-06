@@ -60,6 +60,7 @@ a:focus {
     padding: 0 20px;
     margin: 0 auto;
     opacity: .9;
+    cursor: pointer;
 }
 
 .header {
