@@ -61,6 +61,7 @@ a:focus {
     margin: 0 auto;
     opacity: .9;
     cursor: pointer;
+    text-align: center;
 }
 
 .header {
